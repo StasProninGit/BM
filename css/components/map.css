@@ -1,0 +1,52 @@
+.map__map {
+  width: 700px;
+  height: 500px;
+  /* background-color: aqua; */
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+/* [class*="ground-pane"] {
+	filter: grayscale(1);
+} */
+
+.map__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.map__adress__title {
+  margin-bottom: 10px;
+}
+
+.map__adress__text {
+  margin-bottom: 20px;
+}
+
+
+.map__adress__title:not(:first-child)::before {
+  content: "";
+  background-image: url(https://icon666.com/r/_thumb/bc5/bc5dttqfb81d_64.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.title__adress::before {
+  content: "";
+  background-image: url(https://icon666.com/r/_thumb/4n5/4n52cinxh0yc_64.png);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
+}

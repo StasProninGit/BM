@@ -1,0 +1,428 @@
+@media (max-width: 1100px) {
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .header__nav__list__item {
+    font-size: 14px;
+  }
+
+  .header__logo img {
+    height: 50px;
+    width:180px ;
+  }
+
+  .header {
+    height: fit-content;
+  }
+
+  .header__contact__tel {
+    font-size: 12px;
+
+  }
+  .header__contact__mail {
+    font-size: 12px;
+  }
+
+  .header__nav__list {
+    gap: 3px;
+  }
+
+  .hero__left {
+    width: 60%;
+  }
+
+  .tabby-content img {
+    display: none;
+  }
+
+  .beton__td {
+    font-size: 14px;
+    padding: 3px 7px;
+  }
+
+  .tabby-tab label {
+    font-size: 14px;
+  }
+
+  .easy__text__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .easy__text__text {
+    font-size: 12px;
+  }
+
+  .easystep {
+    font-size: 36px;
+    padding: 10px;
+  }
+  .easy__content {
+    flex-grow: 0;
+  }
+  .easy {
+    display: none;
+  }
+
+  .map__map {
+    width: 450px;
+    height: 450px;
+  }
+
+  .delive__text {
+    flex-wrap: wrap;
+  }
+
+  .delive__card {
+    max-width: 48%;
+  }
+
+
+  .delive__img svg {
+    max-width: 80px;
+  }
+
+  .delive__price__img {
+    display: none;
+  }
+
+  .map__adress__title {
+    font-size: 20px;
+  }
+.advantage__card__title {
+  font-size: 26px;
+}
+
+.card {
+  max-width: 220px;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__description  {
+  font-size: 14px;
+}
+
+.form {
+width: 250px;
+
+
+}
+.title {
+  font-size: 26px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.ic1 {
+  margin-top: 10px;
+}
+
+.ic2 {
+  margin-top: 10px;
+}
+
+.modal-content {
+  top: 100px;
+  right: 50px;
+}
+
+.card {
+  max-width: 100%;
+}
+.card__content {
+  width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+  .header__logo img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .header__nav__list {
+    display: block;
+  }
+
+  .header__nav {
+    position: absolute;
+    right: -320px;
+    top: 0;
+    width: 320px;
+    background-color: var(--brown);
+    padding: 20px;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header__nav__link {
+    color: var(--white);
+    font-size: 22px;
+  }
+
+  .header__burger-btn {
+    display: block;
+  }
+
+  .header.open .header__nav {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  .hero__left {
+    padding: 20px 0;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .tabby-tab label {
+    height: 50px;
+
+  }
+
+  .tabby-content {
+    top: 50px;
+  }
+
+  .beton__th:first-child {
+    display: none;
+  }
+
+  .beton__tr td:first-child {
+    display: none;
+  }
+  .delive__title {
+    padding-top: 0px;
+  }
+
+  .delive__price {
+    height: 400px;
+  }
+  .redTable {
+    max-width: 320px;
+  }
+
+  .map__map {
+    height: 300px;
+    width: 300px;
+  }
+
+  .map__adress__title {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .map__adress__text {
+    margin-bottom: 5px;
+  }
+
+  .map__content {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .advantage__title2 {
+    font-size: 14px;
+  }
+  .advantage__card {
+    width: 150px;
+    height: 150px;
+  }
+
+  .advantage__card__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .advantage__card__img svg {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: -5px;
+  }
+
+  .advantage__card__title {
+    font-size: 14px;
+  }
+
+  .advantage__card__text {
+    font-size: 11px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+  .card__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  .hero__title {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  .hero__left {
+    padding: 10px 0px;
+  }
+
+  .hero__left .section-title {
+    margin-bottom: 0px;
+  }
+  .hero__button {
+    font-size: 12px;
+  }
+  .section-title {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .tabby-tab label {
+    font-size: 10px;
+  }
+
+  .beton__th {
+    font-size: 8px;
+  }
+  .beton__td {
+    font-size: 8px;
+  }
+
+  .beton__btn {
+    padding: 2px 5px;
+  }
+
+  .tabby-content {
+    height: fit-content;
+  }
+  .tabby-tab {
+    height: fit-content;
+  }
+
+  .tabs {
+    min-height: 280px;
+  }
+
+  .delive__card {
+    max-width: 100%;
+  }
+
+  .delive__p {
+    font-size: 8px;
+  }
+
+  .delive__price__title2 {
+    font-size: 10px;
+  }
+
+  table.redTable thead th  {
+    font-size: 12px;
+  }
+
+  table.redTable tbody td {
+    font-size: 10px;
+  }
+
+  table.redTable {
+    width: 100%;
+  }
+
+  .map__content {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map__map {
+    width: 100%;
+  }
+
+  .map__adress__title {
+    font-size: 12px;
+  }
+  .map__adress__text {
+    font-size: 10px;
+  }
+  .advantage__title2 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .advantage__card {
+    width: 48%;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card__content {
+    width: 100%;
+  }
+
+  .header__contact__tel {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+
+  .header__contact__mail {
+    font-size: 10px;
+  }
+
+  .footer__social {
+    gap: 5px;
+  }
+
+  .footer__social__link__icon {
+    width: 20px;
+    height: 20px;
+  }
+  .footer__bottom__title {
+    font-size: 8px;
+  }
+
+  .contacts__content {
+    padding-bottom: 10px;
+  }
+
+  .contacts__content__item {
+    font-size: 10px;
+  }
+
+  .nasos__list__item {
+    font-size: 10px;
+  }
+
+  .delive__price {
+    height: 280px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 11px;
+  }
+  #firstname {
+    font-size: 12px;
+  }
+  .input-container {
+    font-size: 12px;
+  }
+  .form {
+    width: 200px;
+  }
+
+  .form__btn {
+    font-size: 12px;
+  }
+}

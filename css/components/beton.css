@@ -1,0 +1,161 @@
+
+
+
+
+
+/* ------------------- */
+/* PEN STYLES      -- */
+/* ----------------- */
+
+/* MAKE IT CUTE ----- */
+.tabs {
+  position: relative;
+  display: flex;
+  min-height: 450px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 60px;
+
+}
+
+.tabby-tab {
+  flex: 1;
+}
+
+.tabby-tab label {
+  display: block;
+  box-sizing: border-box;
+  /* tab content must clear this */
+    height: 40px;
+
+  padding: 10px;
+  text-align: center;
+  background: var(--brown);
+  cursor: pointer;
+  transition: background 0.5s ease, color 0.5s ease;
+  color: var(--white);
+  font-weight: 800;
+
+}
+
+.tabby-tab label:hover {
+  background: #fdfdfd;
+  color: black;
+
+}
+
+.tabby-content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+
+  left: 0; bottom: 0; right: 0;
+  /* clear the tab labels */
+    top: 40px;
+
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  background: #cfcfcf;
+
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease   ;
+
+  /* show/hide */
+    opacity: 0;
+    transform: scale(0.1);
+    transform-origin: top left;
+
+    box-shadow: 0 0 40px rgba(0, 0, 0, .2) inset;
+
+}
+
+.tabby-content img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+
+/* MAKE IT WORK ----- */
+
+.tabby-tab [type=radio] { display: none; }
+[type=radio]:checked ~ label {
+  background: #696969;
+  z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tabby-content {
+  z-index: 1;
+
+  /* show/hide */
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* BREAKPOINTS ----- */
+@media screen and (max-width: 767px) {
+  .tabs { min-height: 400px;}
+}
+
+@media screen and (max-width: 480px) {
+  .tabs { min-height: 580px; }
+  .tabby-tab label {
+    height: 60px;
+  }
+  .tabby-content { top: 60px; }
+  .tabby-content img {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Таблица */
+.beton__table {
+  text-decoration: none;
+  border-collapse:collapse;
+  text-align:center;
+  width: 100%;
+}
+
+.beton__table__body {
+
+}
+
+
+.beton__tr {
+
+}
+
+.beton__td,
+.beton__th {
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+table.beton__table tr:hover {
+  background-color:#f9fafb;
+}
+
+table.beton__table tr:hover td {
+  color:#354251;
+  cursor:default;
+}
+
+.beton__tr .beton__th {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.beton__btn {
+  transition: all 0.3s ease-in-out;
+}
+.beton__btn:hover {
+  background-color: var(--gray);
+}
+
+
+
+

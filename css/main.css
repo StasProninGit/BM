@@ -1,0 +1,34 @@
+/* main */
+
+@import "normalize.css";
+@import "style.css";
+@import "components/hover.css";
+/* @import "/js/script.js"; */
+
+
+/* components */
+
+@import "components/header.css";
+@import "components/hero.css";
+@import "components/beton.css";
+@import "components/delive.css";
+@import "components/delive__price.css";
+@import "components/map.css";
+@import "components/advantage.css";
+@import "components/easy.css";
+@import "components/nasos.css";
+@import "components/modal.css";
+@import "components/footer.css";
+@import "components/contacts.css";
+@import "components/media.css";
+
+
+
+
+:root {
+    --black: black;
+    --white: white;
+    --brown :#872A18;
+    --gray: #3D3C3E;
+
+}
