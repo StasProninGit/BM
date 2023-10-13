@@ -110,3 +110,7 @@ transform: translateY(-10px);
     transform: translateY(0) rotate(-45deg);
     background-color: white;
   }
+
+  .header__contact__mail__wp {
+    margin-left: 30px;
+  }

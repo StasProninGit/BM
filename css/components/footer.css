@@ -38,3 +38,17 @@
   font-weight: 500;
   padding: 5px 0;
 }
+
+
+.header__contact li {
+  position: relative;
+}
+
+.header__contact li svg {
+  position: absolute;
+  top: -5px;
+}
+
+.header__contact__mail__wp {
+  margin-left: 30px;
+}
