@@ -11,7 +11,7 @@
 }
 
 .footer__logo img {
-  height: 80px;
+  height: 90px;
 }
 
 .footer__social__link__icon {
@@ -40,15 +40,4 @@
 }
 
 
-.header__contact li {
-  position: relative;
-}
 
-.header__contact li svg {
-  position: absolute;
-  top: -5px;
-}
-
-.header__contact__mail__wp {
-  margin-left: 30px;
-}

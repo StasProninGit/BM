@@ -162,6 +162,8 @@ width: 250px;
     padding: 20px;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
+
+
   }
 
   .header__nav__link {
@@ -372,6 +374,7 @@ width: 250px;
   .header__contact__tel {
     font-size: 10px;
     padding: 2px 5px;
+    /* z-index: -1; */
   }
 
   .header__contact__mail {
@@ -425,4 +428,39 @@ width: 250px;
   .form__btn {
     font-size: 12px;
   }
+
+  .header.open .header__nav {
+    z-index: 1;
+  }
+
+  .header__burger-btn {
+    z-index: 2;
+  }
+
+  .header__contact__tel {
+    margin-left: 20px;
+  }
+
+  .header__contact__list__tel svg {
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    /* z-index: -1; */
+  }
+
+  .header__contact__list img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__contact__list__wp svg {
+    width: 20px;
+    height: 20px;
+  }
+  .reviews__media {
+    max-width: 360px;
+    display: flex;
+    justify-content: center;
+  }
+
 }
