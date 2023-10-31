@@ -60,8 +60,9 @@
   cursor: pointer;
 }
 .question__text {
-  color: rgba(0, 0, 0, 1);
+  color: var(--black);
   font-size: 17px;
+  font-weight: 600;
   line-height: 26px;
   letter-spacing: 1px;
   position: relative;

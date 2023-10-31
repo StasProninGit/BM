@@ -37,6 +37,8 @@
 
 .hero__left__content__text {
   color: var(--black);
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .hero__left__content__items {
