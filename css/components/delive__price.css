@@ -17,7 +17,7 @@
 table.redTable {
   border: 2px solid var(--brown);
   background-color: #EEE7DB;
-  width: 600px;
+  width: 700px;
   text-align: center;
   border-collapse: collapse;
 }
